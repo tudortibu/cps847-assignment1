@@ -12,6 +12,7 @@ import requests
 import json
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 
 
 env_path = Path('.') / '.env'
